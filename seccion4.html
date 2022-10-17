@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vershka</title>
+</head>
+<body>
+<section>
+    <ul>
+        <li>
+            Inicio
+        </li>
+        <li>
+            <a href="./seccion1.html">Remeras</a>
+        </li>
+        <li>
+            <a href="./seccion2.html">Vestidos</a>
+        </li>
+        <li>
+            <a href="./seccion3.html">Pantalones</a>
+        </li>
+    </ul>
+    
+</section>
+    <section>
+        <table border="">
+            <!-- Los tr marcan las filas, luego los th marcan el titulo de cada columna, td marca contenido de cada casillero -->
+            <tr>
+                <th>Material</th>
+                <th>Lavado</th>
+                <th>Recomendación</th>
+            </tr>
+            <tr>
+                <td>Algodon</td>
+                <td>Agua fria</td>
+                <td>No lavarropas</td>
+            </tr>
+            <tr>
+                <td>Licra</td>
+                <td>Agua caliente</td>
+                <td>automatico</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </section>
+    <section>
+        <!-- Action sirve para mandar a algun archivo externo la información, si no hay nada entonces se guarda en el mismo archivo -->
+        <!-- El name es importante ya que es lo que se enviara, de otro modo no llegará nada -->
+        <form>
+            <input type="text" name="User">
+            <input type="email">
+            <input type="password" name="password">
+            <input type="submit" name="enviar">
+            <input type="reset" name="limpiar formulario" id="">
+             
+        </form>
+        <form>
+            <select name="Estado civil" id="Estado civil"></select>
+            <option value="Casado">Casado</option>
+            <option value="soltero">Soltero</option>
+            <button>enviar</button>
+        </form>
+    </section>
+</body>
+</html>
