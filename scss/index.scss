@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+/* MISC */
+@import './misc/variables';
+@import './misc/normalize';
+
+/* PARTIALS */
+@import './partials/header';
+@import './partials/footer';
+
+/* PAGES */
+@import './pages/index';
+@import './pages/ropa';
+@import './pages/guia-talles';
+@import './pages/quienes-somos';
+@import './pages/contacto';
+

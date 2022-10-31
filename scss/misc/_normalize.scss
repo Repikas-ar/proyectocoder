@@ -1,0 +1,40 @@
+* /*Aplica el diseño a todas las etiquetas de html*/
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 62.5%;
+}
+
+body{
+    font-family: 'Quicksand', sans-serif;
+    font-size: var(--text-xsmall);
+    height: 100vh;
+
+}
+a {
+    text-decoration: none;
+    color: var(--quaternary);
+    font-size: var(--text-xsmall);
+}
+
+li a{
+    color: var(--secondary);
+}
+
+ul{
+    list-style-type: none;
+}
+img{
+    max-width: 100%;
+    align-items: center;
+}
+
+header {
+    background-color: var(--primario);
+    
+    
+}

@@ -1,0 +1,35 @@
+.menu-contacto{
+    display: flex;
+}
+
+.contacto-form{
+    width: 400px;
+    background: var(--terteary);
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    color: var(--secondary); 
+
+    .contacto-form-item{
+        width: 100%;
+        padding: 10px;
+        border-radius: 4px;
+        background: var(--terteary);
+        margin-bottom: 16px;
+        border: 1px solid var(--primario);
+
+    }
+    .contacto-item .btn{
+        width: 100%;
+        background: var(--primario);
+        border: none;
+        padding: 12px;
+        color: var(--terteary);
+        margin: 16px 0;
+        font-size: 16px;
+}
+
+        
+}
+

@@ -1,0 +1,27 @@
+#fondo-total{
+    background-image: url(../img/blazer.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1800px;
+    position: relative;
+    padding-bottom: 3em;
+    width: 100%;
+    color: var(--terteary);
+
+    #fondo-total::before{
+        content: '';
+        position: absolute;
+        background-color: #0C120C;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        opacity: 60%;
+        z-index: -1;
+    
+    }
+    
+    
+}
+
