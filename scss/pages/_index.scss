@@ -1,3 +1,18 @@
+
+.producto-tittle{
+
+    background-color: var(--secondary);
+    color: var(--terteary);
+    display: flex;
+    max-width: 100%;
+    align-items: center;
+    display: flex;
+    place-items: center;
+    padding-left: 29em;
+    height: 100%;
+    gap: 140px;
+}
+
 #banner{
     
     background-size: cover;
@@ -5,22 +20,17 @@
     position: relative;
     background-position: center;
     background-repeat: no-repeat;
-
-    #banner img{
-        height: 500px;
-        overflow: hidden;
-        object-fit: cover;
-        width: 100%;
-        display: block;
-        margin: auto;
-        max-width: 1200px;
-        min-width: 500px;
-        
     
-    }
-    
-  
-
+}
+#banner img{
+    height: 500px;
+    overflow: hidden;
+    object-fit: cover;
+    width: 100%;
+    display: block;
+    margin: auto;
+    max-width: 1200px;
+    min-width: 500px;
     
 }
 
@@ -43,49 +53,24 @@
  
 
  
-#producto {
-    display: flex;
-    place-content: center;
-    .producto-tittle{
-        background-color: var(--secondary);
-        color: var(--terteary);
-        display: flex;
-        max-width: 100%;
-        align-items: center;
-        display: flex;
-        place-items: center;
-        padding-left: 29em;
-        height: 100%;
-        gap: 140px;
-        
-    
-    .producto-item{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        place-content: center;
 
-        .producto-item .btn{
-            height: 50px;
+
+.produ-tittle h1{
+     display: flex;
+    justify-content: center;
+    }
+.producto-item{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-content: center;
+    .producto-item .btn{
+        height: 50px;
+    }
+    .producto-div {
+        padding: 50px;  
         }
 
-     }
-    .produ-tittle h1{
-        display: flex;
-        justify-content: center;
-    }
-    .producto-item{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        place-content: center;
-     }
+    } 
      
-    
-    .producto-div {
-         padding: 50px;
-      
-         
-     }
-     
-}
 
-}
+
